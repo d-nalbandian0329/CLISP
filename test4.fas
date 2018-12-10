@@ -1,0 +1,105 @@
+(|SYSTEM|::|VERSION| '(20080430.))
+#0Y_ #0Y |CHARSET|::|UTF-8|
+#Y(#:|1 10 (PRINC "kotoko")-1|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01) ("kotoko")
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|11 11 (PRINC #\\Space)-2|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01) (#\Space)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|12 12 (PRINC "yukarin")-3|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01) ("yukarin")
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|14 14 (PRINC #\\Newline)-4|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01) (#\Newline)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|16 16 (PRINC "hogerin")-5|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01) ("hogerin")
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|17 17 (PRINC #\\Tab)-6|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01) (#\Tab)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|18 18 (PRINC "fuga")-7|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01) ("fuga")
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|20 20 (PRINC #\\Return)-8|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01) (#\Return)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|21 21 (PRINC "Nana")-9|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01) ("Nana")
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|22 22 (PRINC #\\Rubout)-10|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01) (#\Rubout)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|24 25 (PRINC #\\Newline)-11|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01) (#\Newline)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|27 34 (FORMAT T "code of \\"A\\" : ")-12|
+   #18Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 33 01 15 19 01)
+   (#Y(#:|27 34 (FORMAT T "code of \\"A\\" : ")-12-1|
+       #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+       ("code of \"A\" : ")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|35 35 (PRINC (CHAR-CODE #\\A))-13|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01) (65.)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|36 36 (PRINC #\\Newline)-14|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01) (#\Newline)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|38 38 (FORMAT T "character of 65 : ")-15|
+   #18Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 33 01 15 19 01)
+   (#Y(#:|38 38 (FORMAT T "character of 65 : ")-15-1|
+       #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+       ("character of 65 : ")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|39 39 (PRINC (CODE-CHAR 65))-16|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01) (#\A)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|40 40 (PRINC #\\Newline)-17|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01) (#\Newline)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|42 42 (FORMAT T "character of 0x42 : ")-18|
+   #18Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 33 01 15 19 01)
+   (#Y(#:|42 42 (FORMAT T "character of 0x42 : ")-18-1|
+       #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+       ("character of 0x42 : ")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|43 43 (PRINC (CODE-CHAR 66))-19|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01) (#\B)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|44 44 (PRINC #\\Newline)-20|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01) (#\Newline)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|46 46 (FORMAT T "code of \\"Space\\" : ")-21|
+   #18Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 33 01 15 19 01)
+   (#Y(#:|46 46 (FORMAT T "code of \\"Space\\" : ")-21-1|
+       #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+       ("code of \"Space\" : ")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|47 47 (PRINC (CHAR-CODE #\\Space))-22|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01) (32.)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|48 48 (PRINC #\\Newline)-23|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01) (#\Newline)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|50 50 (FORMAT T "code of \\"Tab\\" : ")-24|
+   #18Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 33 01 15 19 01)
+   (#Y(#:|50 50 (FORMAT T "code of \\"Tab\\" : ")-24-1|
+       #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+       ("code of \"Tab\" : ")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|51 51 (PRINC (CHAR-CODE #\\Tab))-25|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01) (9.)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|52 52 (PRINC #\\Newline)-26|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01) (#\Newline)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))

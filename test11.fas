@@ -1,0 +1,108 @@
+(|SYSTEM|::|VERSION| '(20080430.))
+#0Y_ #0Y |CHARSET|::|UTF-8|
+#Y(#:|1 28 (SETQ I 0)-1| #15Y(00 00 00 00 00 00 00 00 20 01 C5 0F 01 19 01)
+   (0. |COMMON-LISP-USER|::|I|)
+   (|COMMON-LISP|::|NIL| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|29 32 (TAGBODY NEXT (IF # #))-2|
+   #37Y(00 00 00 00 00 00 00 00 20 01 1B 0F DC 6B 03 6B 00 DE 33 03 15 6B 00 32
+        B1 0F 00 6B 00 DB 90 01 31 6A 00 19 01)
+   (|COMMON-LISP-USER|::|I| 10.
+    #Y(#:|29 32 (TAGBODY NEXT (IF # #))-2-1|
+       #21Y(00 00 00 00 03 00 00 00 21 19 AF B1 31 90 AE B1 31 90 9E 19 05) ()
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*| #\Newline)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|34 35 (SETQ I 0)-3| #15Y(00 00 00 00 00 00 00 00 20 01 C5 0F 01 19 01)
+   (0. |COMMON-LISP-USER|::|I|)
+   (|COMMON-LISP|::|NIL| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|36 39 (TAGBODY NEXT (WHEN # # ...))-4|
+   #37Y(00 00 00 00 00 00 00 00 20 01 1B 0F DC 6B 03 6B 00 DE 33 03 15 6B 00 32
+        B1 0F 00 6B 00 DB 90 01 31 6A 00 19 01)
+   (|COMMON-LISP-USER|::|I| 10.
+    #Y(#:|36 39 (TAGBODY NEXT (WHEN # # ...))-4-1|
+       #21Y(00 00 00 00 03 00 00 00 21 19 AF B1 31 90 AE B1 31 90 9E 19 05) ()
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*| #\Newline)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|41 44 (SETQ X 10)-5| #15Y(00 00 00 00 00 00 00 00 20 01 C5 0F 01 19 01)
+   (10. |COMMON-LISP-USER|::|X|)
+   (|COMMON-LISP|::|NIL| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|45 45 (SETQ Y 10)-6| #15Y(00 00 00 00 00 00 00 00 20 01 C5 0F 01 19 01)
+   (10. |COMMON-LISP-USER|::|Y|)
+   (|COMMON-LISP|::|NIL| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|46 46 (SETQ Z 1000)-7| #15Y(00 00 00 00 00 00 00 00 20 01 C5 0F 01 19 01)
+   (1000. |COMMON-LISP-USER|::|Z|)
+   (|COMMON-LISP|::|NIL| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|48 48 (FORMAT T "x: ~A  y : ~A  z : ~A~A" ...)-8|
+   #25Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 6B 02 6B 03 6B 04 DF 33 05 15 19
+        01)
+   (#Y(#:|48 48 (FORMAT T "x: ~A  y : ~A  z : ~A~A" ...)-8-1|
+       #47Y(00 00 00 00 05 00 00 00 21 00 DA B3 38 02 31 95 B1 B3 31 90 DB B3
+            38 02 31 95 B0 B3 31 90 DC B3 38 02 31 95 AF B3 31 90 AE B3 31 90
+            9E 19 07)
+       ("x: " "  y : " "  z : ")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*| |COMMON-LISP-USER|::|X|
+    |COMMON-LISP-USER|::|Y| |COMMON-LISP-USER|::|Z| #\Newline)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|50 59 (TAGBODY (TAGBODY # # ...) LABEL ...)-9|
+   #19Y(00 00 00 00 00 00 00 00 20 01 C5 0F 01 C5 0F 02 00 19 01)
+   (0. |COMMON-LISP-USER|::|Y| |COMMON-LISP-USER|::|Z|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|61 61 (FORMAT T "x: ~A  y : ~A  z : ~A~A" ...)-10|
+   #25Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 6B 02 6B 03 6B 04 DF 33 05 15 19
+        01)
+   (#Y(#:|61 61 (FORMAT T "x: ~A  y : ~A  z : ~A~A" ...)-10-1|
+       #47Y(00 00 00 00 05 00 00 00 21 00 DA B3 38 02 31 95 B1 B3 31 90 DB B3
+            38 02 31 95 B0 B3 31 90 DC B3 38 02 31 95 AF B3 31 90 AE B3 31 90
+            9E 19 07)
+       ("x: " "  y : " "  z : ")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*| |COMMON-LISP-USER|::|X|
+    |COMMON-LISP-USER|::|Y| |COMMON-LISP-USER|::|Z| #\Newline)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|65 89 (FORMAT T "(block test 1 10 100) => ~A~A" ...)-11|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 DC DD 33 03 15 19 01)
+   (#Y(#:|65 89 (FORMAT T "(block test 1 10 100) => ~A~A" ...)-11-1|
+       #27Y(00 00 00 00 03 00 00 00 21 19 DA B1 38 02 31 95 AF B1 31 90 AE B1
+            31 90 9E 19 05)
+       ("(block test 1 10 100) => ")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*| 100. #\Newline)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|91 92 (FORMAT T "(block test 1 (return-from test 12345) 100) => ~A~A" ...)-12|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 DC DD 33 03 15 19 01)
+   (#Y(#:|91 92 (FORMAT T "(block test 1 (return-from test 12345) 100) => ~A~A" ...)-12-1|
+       #27Y(00 00 00 00 03 00 00 00 21 19 DA B1 38 02 31 95 AF B1 31 90 AE B1
+            31 90 9E 19 05)
+       ("(block test 1 (return-from test 12345) 100) => ")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*| 12345. #\Newline)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|94 95 (FORMAT T "(block test 1 (return-from test) 100) => ~A~A" ...)-13|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 63 DC 33 03 15 19 01)
+   (#Y(#:|94 95 (FORMAT T "(block test 1 (return-from test) 100) => ~A~A" ...)-13-1|
+       #27Y(00 00 00 00 03 00 00 00 21 19 DA B1 38 02 31 95 AF B1 31 90 AE B1
+            31 90 9E 19 05)
+       ("(block test 1 (return-from test) 100) => ")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*| #\Newline)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|98 107 (FORMAT T "(block nil 1 (return 12345) 100) => ~A~A" ...)-14|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 DC DD 33 03 15 19 01)
+   (#Y(#:|98 107 (FORMAT T "(block nil 1 (return 12345) 100) => ~A~A" ...)-14-1|
+       #27Y(00 00 00 00 03 00 00 00 21 19 DA B1 38 02 31 95 AF B1 31 90 AE B1
+            31 90 9E 19 05)
+       ("(block nil 1 (return 12345) 100) => ")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*| 12345. #\Newline)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|109 118 (FORMAT T "(block outside (block inside (return-from outside) 100) 1000) : ~A~A" ...)-15|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 DC DD 33 03 15 19 01)
+   (#Y(#:|109 118 (FORMAT T "(block outside (block inside (return-from outside) 100) 1000) : ~A~A" ...)-15-1|
+       #27Y(00 00 00 00 03 00 00 00 21 19 DA B1 38 02 31 95 AF B1 31 90 AE B1
+            31 90 9E 19 05)
+       ("(block outside (block inside (return-from outside) 100) 1000) : ")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*| 12345. #\Newline)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))

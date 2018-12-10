@@ -1,0 +1,107 @@
+(|SYSTEM|::|VERSION| '(20080430.))
+#0Y_ #0Y |CHARSET|::|UTF-8|
+#Y(#:|1 13 (IF T (PRINC 10) ...)-1|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01) (10.)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|15 15 (IF 1 (PRINT 10) ...)-2|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 8E 19 01) (10.)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|17 17 (IF NIL (PRINC 10) ...)-3|
+   #17Y(00 00 00 00 00 00 00 00 20 01 63 38 01 31 8E 19 01) ()
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|18 18 (PRINC #\\Newline)-4|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01) (#\Newline)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|20 20 (SETQ X 10)-5| #15Y(00 00 00 00 00 00 00 00 20 01 C5 0F 01 19 01)
+   (10. |COMMON-LISP-USER|::|X|)
+   (|COMMON-LISP|::|NIL| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|22 22 (IF (< X 100) (SETQ Y 100) ...)-6|
+   #26Y(00 00 00 00 00 00 00 00 20 01 6B 00 DB 90 01 31 06 0E 00 0F 02 19 01 C6
+        1B 79)
+   (|COMMON-LISP-USER|::|X| 100. |COMMON-LISP-USER|::|Y|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|23 23 (FORMAT T "x : ~A  y : ~A~A" ...)-7|
+   #23Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 6B 02 6B 03 DE 33 04 15 19 01)
+   (#Y(#:|23 23 (FORMAT T "x : ~A  y : ~A~A" ...)-7-1|
+       #37Y(00 00 00 00 04 00 00 00 21 1A DA B2 38 02 31 95 B0 B2 31 90 DB B2
+            38 02 31 95 AF B2 31 90 AE B2 31 90 9E 19 06)
+       ("x : " "  y : ")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*| |COMMON-LISP-USER|::|X|
+    |COMMON-LISP-USER|::|Y| #\Newline)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|25 25 (IF (= Y 100) (SETQ X Y) ...)-8|
+   #26Y(00 00 00 00 00 00 00 00 20 01 6B 00 DB 90 01 2F 05 C8 0F 02 19 01 0E 00
+        1B 78)
+   (|COMMON-LISP-USER|::|Y| 100. |COMMON-LISP-USER|::|X| 0.)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|26 26 (FORMAT T "x : ~A  y : ~A~A" ...)-9|
+   #23Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 6B 02 6B 03 DE 33 04 15 19 01)
+   (#Y(#:|26 26 (FORMAT T "x : ~A  y : ~A~A" ...)-9-1|
+       #37Y(00 00 00 00 04 00 00 00 21 1A DA B2 38 02 31 95 B0 B2 31 90 DB B2
+            38 02 31 95 AF B2 31 90 AE B2 31 90 9E 19 06)
+       ("x : " "  y : ")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*| |COMMON-LISP-USER|::|X|
+    |COMMON-LISP-USER|::|Y| #\Newline)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|29 37 (FORMAT T "(progn (setq x 10) (setq y 20) (setq 30)) : ~A~A" ...)-10|
+   #29Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 C7 0F 03 C9 0F 05 CB 0F 07 14 E2
+        33 03 15 19 01)
+   (#Y(#:|29 37 (FORMAT T "(progn (setq x 10) (setq y 20) (setq 30)) : ~A~A" ...)-10-1|
+       #27Y(00 00 00 00 03 00 00 00 21 19 DA B1 38 02 31 95 AF B1 31 90 AE B1
+            31 90 9E 19 05)
+       ("(progn (setq x 10) (setq y 20) (setq 30)) : ")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*| 10. |COMMON-LISP-USER|::|X| 20.
+    |COMMON-LISP-USER|::|Y| 30. |COMMON-LISP-USER|::|Z| #\Newline)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|39 39 (FORMAT T "x : ~A  y : ~A  z : ~A~A" ...)-11|
+   #25Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 6B 02 6B 03 6B 04 DF 33 05 15 19
+        01)
+   (#Y(#:|39 39 (FORMAT T "x : ~A  y : ~A  z : ~A~A" ...)-11-1|
+       #47Y(00 00 00 00 05 00 00 00 21 00 DA B3 38 02 31 95 B1 B3 31 90 DB B3
+            38 02 31 95 B0 B3 31 90 DC B3 38 02 31 95 AF B3 31 90 AE B3 31 90
+            9E 19 07)
+       ("x : " "  y : " "  z : ")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*| |COMMON-LISP-USER|::|X|
+    |COMMON-LISP-USER|::|Y| |COMMON-LISP-USER|::|Z| #\Newline)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|41 54 (SETQ X 25)-12| #15Y(00 00 00 00 00 00 00 00 20 01 C5 0F 01 19 01)
+   (25. |COMMON-LISP-USER|::|X|)
+   (|COMMON-LISP|::|NIL| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|56 60 (FORMAT T "~A : ~A~A" ...)-13|
+   #42Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 6B 02 6B 02 DD 72 D2 8E AC 10 6B
+        02 DF 72 D2 8F AC 01 CB 14 E1 33 04 15 19 01 C9 1B 76)
+   (#Y(#:|56 60 (FORMAT T "~A : ~A~A" ...)-13-1|
+       #31Y(00 00 00 00 04 00 00 00 21 1A B0 B2 31 90 DA B2 38 02 31 95 AF B2
+            31 90 AE B2 31 90 9E 19 06)
+       (" : ") (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*| |COMMON-LISP-USER|::|X| 15. "FizzBuzz"
+    5. "Buzz" #\Newline)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|63 67 (FORMAT T "~A : ~A~A" ...)-14|
+   #42Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 6B 02 6B 02 DD 72 D2 8E AC 10 6B
+        02 DF 72 D2 8F AC 01 CB 14 E1 33 04 15 19 01 C9 1B 76)
+   (#Y(#:|63 67 (FORMAT T "~A : ~A~A" ...)-14-1|
+       #31Y(00 00 00 00 04 00 00 00 21 1A B0 B2 31 90 DA B2 38 02 31 95 AF B2
+            31 90 AE B2 31 90 9E 19 06)
+       (" : ") (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*| |COMMON-LISP-USER|::|X| 15. "FizzBuzz"
+    5. "Buzz" #\Newline)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|70 83 (FORMAT T "~A : ~A~A" ...)-15|
+   #57Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 6B 02 6B 02 DD 72 D2 8E AC 1D 6B
+        02 E0 72 D2 8F AC 03 CC 0F 05 6B 02 E2 72 D2 8F AC 03 CE 0F 05 14 E4 33
+        04 15 19 01 C9 0F 05 1B 74)
+   (#Y(#:|70 83 (FORMAT T "~A : ~A~A" ...)-15-1|
+       #31Y(00 00 00 00 04 00 00 00 21 1A B0 B2 31 90 DA B2 38 02 31 95 AF B2
+            31 90 AE B2 31 90 9E 19 06)
+       (" : ") (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*| |COMMON-LISP-USER|::|X| 15. "FizzBuzz"
+    |COMMON-LISP-USER|::|STR| 3. "Fizz" 5. "Buzz" #\Newline)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|85 85 (UNLESS NIL (PRINC "NIL"))-16|
+   #17Y(00 00 00 00 00 00 00 00 20 01 DA 38 01 31 90 19 01) ("NIL")
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
